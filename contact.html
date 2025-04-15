@@ -3,15 +3,16 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Forini Furnitures</title>
+    <title>Forini Cabinets</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="Forini info/forini_logo.png" rel="icon">
 
     <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
@@ -28,18 +29,11 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Template Stylesheet -->
+    <!-- Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
 
 
     <!-- Topbar Start -->
@@ -91,11 +85,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link ">Home</a>
+                <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link ">About</a>
                 <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="products.html" class="nav-item nav-link ">Products</a>
                 <a href="project.html" class="nav-item nav-link">Projects</a>
-                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <a href="quote.html" class="btn-quote h-100 px-lg-3 d-none d-lg-block">Get A Quote<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
@@ -180,49 +175,59 @@
 <!-- Contact End -->
 
 
- <!-- Footer Start -->
- <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow">
-    <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Address</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Arlington Heights, Illinois 60005, USA</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 224 822 88 02</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@forinicabinets.com</p>
-                <div class="d-flex pt-2">
-                    <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/forinicabinets/"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/forinicabinets"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer mt-5 pt-5 wow">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Arlington Heights, Illinois 60005, USA</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 224 822 88 02</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@forinicabinets.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/forinicabinets/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/forinicabinets"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Products</h4>
+                    <a class="btn btn-link" href="products.html">Kitchen & Bathroom Cabinets</a>
+                    <a class="btn btn-link" href="products.html">Custom Cabinetry</a>
+                    <a class="btn btn-link" href="products.html">Wardrobe & Closet Systems</a>
+                    <a class="btn btn-link" href="products.html">Commercial Display & Trade Fixtures</a>
+                    <a class="btn btn-link" href="products.html">Solid Wood Custom Products</a>
+                </div>                
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Laminated Chipboard (LDSP) & MDF Cutting</a>
+                    <a class="btn btn-link" href="service.html">Edgebanding</a>
+                    <a class="btn btn-link" href="service.html">Gazebo, Pavilion & Pergola Construction</a>
+                    <a class="btn btn-link" href="service.html">Painting</a>
+                    <a class="btn btn-link" href="service.html">Countertop & Island Top Manufacturing</a>
+                    <a class="btn btn-link" href="service.html">Wood Sanding</a>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="service.html">Our Services</a>
+                    <a class="btn btn-link" href="project.html">Projects</a>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Services</h4>
-                <a class="btn btn-link" href="service.html">Carpentry</a>
-                <a class="btn btn-link" href="service.html">Kitchen & Bath</a>
-                <a class="btn btn-link" href="service.html">Furniture Remodeling</a>
-                <a class="btn btn-link" href="service.html">Wooden Floor</a>
-                <a class="btn btn-link" href="service.html">Painting</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Quick Links</h4>
-                <a class="btn btn-link" href="index.html">Home</a>
-                <a class="btn btn-link" href="about.html">About Us</a>
-                <a class="btn btn-link" href="service.html">Our Services</a>
-                <a class="btn btn-link" href="project.html">Projects</a>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">Forini Cabinets</a>, All Right Reserved.
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="copyright">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Forini Cabinets</a>, All Right Reserved.
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Footer End -->
+    <!-- Footer End -->
 
 
     <!-- Back to Top -->

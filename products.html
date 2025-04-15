@@ -35,6 +35,7 @@
 
 <body>
 
+
     <!-- Topbar Start -->
     <div class="container-fluid bg-light p-0">
         <div class="row gx-0 d-none d-lg-flex">
@@ -97,99 +98,223 @@
     <!-- Navbar End -->
 
 
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
+            <h1 style="font-family: 'Neue Haas Grotesk Display Pro', sans-serif;" class="display-3 text-white mb-3">Products</h1>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
 
-    <!-- Service Start -->
+    <!-- Projects Start -->
     <div class="container-xxl py-5">
-        <div class="container service-container">
+        <div class="container">
 
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow h-100">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="Forini info/Laminated chipboard.webp.avif" alt="">
+            <div class="row mt-n2 wow">
+                <div class="col-12 text-center">
+                    <ul class="list-inline mb-5" id="portfolio-flters">
+                        <li class="mx-2 active" data-filter="*">All</li>
+                        <li class="mx-2" data-filter=".first">Residential</li>
+                        <li class="mx-2" data-filter=".second">Commercial</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item first wow">
+                    <div class="rounded overflow-hidden">
+                        <!-- Carousel Component -->
+                        <div id="portfolioCarousel" class="carousel slide" data-bs-interval="false" style="position: relative;">
+                            <div class="carousel-inner">
+                            <!-- First Carousel Item (Active) -->
+                            <div class="carousel-item active">
+                                <img class="img-fluid w-100" src="Forini info/Kitchen-1.jpg" alt="Stairway Image 1">
+                            </div>
+                            <!-- Second Carousel Item -->
+                            <div class="carousel-item">
+                                <img class="img-fluid w-100" src="Forini info/kitchen-2.jpg" alt="Stairway Image 2">
+                            </div>
+                            <!-- Third Carousel Item -->
+                            <div class="carousel-item">
+                                <img class="img-fluid w-100" src="Forini info/Kitchen-3.jpg" alt="Stairway Image 3">
+                            </div>
+                            <!-- Add more items as needed -->
+                            </div>
+                        
+                            <!-- Navigation Controls -->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                            </button>
                         </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Laminated Chipboard (LDSP) & MDF Cutting</h4>
-                            <p>Precision cutting of LDSP and MDF panels to exact specifications.</p>
+                        <div class="content border border-4 border-light border-top-0 p-4">
+                            <h4 class="mb-2">Kitchen & Bathroom Cabinets</h4>
+                            <p class="text-muted mb-2">Crafted for function and elegance</p>
                             <a class="fw-medium" href="quote.html">Request a Quote<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow h-100">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="Forini info/edgebanding.jpg.webp" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Edgebanding</h4>
-                            <p>Precision edgebanding that enhances durability and delivers a seamless, high-quality finish.</p>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow">
+                    <div class="rounded overflow-hidden">
+<!-- Carousel Component -->
+<div id="portfolioCarousel2" class="carousel slide" data-bs-interval="false">
+    <div class="carousel-inner">
+    <!-- First Carousel Item (Active) -->
+    <div class="carousel-item active">
+        <img class="img-fluid w-100" src="Forini info/custom.jpg" alt="Stairway Image 1">
+    </div>
+    <!-- Second Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/custom 2.jpg" alt="Stairway Image 2">
+    </div>
+    <!-- Third Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/custom 3.jpg" alt="Stairway Image 3">
+    </div>
+    <!-- Add more items as needed -->
+    </div>
+
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel2" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel2" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+                        <div class="content border border-4 border-light border-top-0 p-4">
+                            <h4 class="mb-4">Custom Cabinetry</h4>
+                            <p class="text-muted mb-3">Tailored to fit your space and style</p>
                             <a class="fw-medium" href="quote.html">Request a Quote<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow h-100">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="Forini info/pavilion.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Gazebo, Pavilion & Pergola Construction</h4>
-                            <p>Custom-built outdoor structures combining strength and style.</p>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow">
+                    <div class="rounded overflow-hidden">
+<!-- Carousel Component -->
+<div id="portfolioCarousel3" class="carousel slide" data-bs-interval="false">
+    <div class="carousel-inner">
+    <!-- First Carousel Item (Active) -->
+    <div class="carousel-item active">
+        <img class="img-fluid w-100" src="Forini info/wardrobe.jpg.webp" alt="Stairway Image 1">
+    </div>
+    <!-- Second Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/wardrobe 2.jpeg" alt="Stairway Image 2">
+    </div>
+    <!-- Third Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/wardrobe 3.png.avif" alt="Stairway Image 3">
+    </div>
+    <!-- Add more items as needed -->
+    </div>
+
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel3" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel3" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+                        <div class="content border border-4 border-light border-top-0 p-4">
+                            <h4 class="mb-2">Wardrobe & Closet Systems</h4>
+                            <p class="text-muted mb-2">Organize with sophistication</p>
                             <a class="fw-medium" href="quote.html">Request a Quote<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow h-100">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="Forini info/painting 2.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Painting</h4>
-                            <p>Professional painting for flawless, lasting surface finishes.</p>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow">
+                    <div class="rounded overflow-hidden">
+<!-- Carousel Component -->
+<div id="portfolioCarousel4" class="carousel slide" data-bs-interval="false">
+    <div class="carousel-inner">
+    <!-- First Carousel Item (Active) -->
+    <div class="carousel-item active">
+        <img class="img-fluid w-100" src="Forini info/Custom Trade Show Booth.jpg" alt="Stairway Image 1">
+    </div>
+    <!-- Second Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/Custom Trade Show Booth 2.jpg" alt="Stairway Image 2">
+    </div>
+    <!-- Third Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/Custom Trade Show Booth 3.jpg" alt="Stairway Image 3">
+    </div>
+    <!-- Add more items as needed -->
+    </div>
+
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel4" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel4" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+                        <div class="content border border-4 border-light border-top-0 p-4">
+                            <h4 class="mb-2">Commercial Display & Trade Fixtures</h4>
+                            <p class="text-muted mb-2">Showcase your brand in style</p>
                             <a class="fw-medium" href="quote.html">Request a Quote<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow h-100">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="Forini info/Kitchen Island 3.jpg" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-2">Countertop & Island Top Manufacturing</h4>
-                            <p>Custom-crafted surfaces tailored to fit any space and design.</p>
+                <div class="col-lg-4 col-md-6 portfolio-item first wow">
+                    <div class="rounded overflow-hidden">
+<!-- Carousel Component -->
+<div id="portfolioCarousel5" class="carousel slide" data-bs-interval="false">
+    <div class="carousel-inner">
+    <!-- First Carousel Item (Active) -->
+    <div class="carousel-item active">
+        <img class="img-fluid w-100" src="Forini info/solid wood.jpeg" alt="Stairway Image 1">
+    </div>
+    <!-- Second Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/solid wood 2.jpeg" alt="Stairway Image 2">
+    </div>
+    <!-- Third Carousel Item -->
+    <div class="carousel-item">
+        <img class="img-fluid w-100" src="Forini info/solid wood 3.jpeg" alt="Stairway Image 3">
+    </div>
+    <!-- Add more items as needed -->
+    </div>
+
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel5" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel5" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+    </button>
+</div>
+                        <div class="content border border-4 border-light border-top-0 p-4">
+                            <h4 class="mb-2">Solid Wood Custom Products</h4>
+                            <p class="text-muted mb-2">Natural beauty, built to last</p>
                             <a class="fw-medium" href="quote.html">Request a Quote<i class="fa fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow h-100">
-                    <div class="service-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="Forini info/sanding.jpg.webp" alt="">
-                        </div>
-                        <div class="p-4 text-center border border-5 border-light border-top-0">
-                            <h4 class="mb-3">Wood Sanding</h4>
-                            <p>Smooth, even sanding for perfect finish preparation.</p>
-                            <a class="fw-medium" href="quote.html">Request a Quote<i class="fa fa-arrow-right ms-2"></i></a>
-                        </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second wow">
+                    <div class="rounded overflow-hidden">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Projects End -->
         
 
     <!-- Footer Start -->
